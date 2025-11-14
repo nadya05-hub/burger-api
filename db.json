@@ -20,7 +20,19 @@
             "condition": "amount > 3",
             "message": "Too much sauce might overpower the flavor!"
           }
+        },
+        {
+        "id": "step3",
+        "type": "multiple-choice",
+        "instruction": "Choose your toppings!",
+        "options": ["Lettuce", "Tomato", "Pickles", "Onions"],
+          "feedback": {
+            "condition": "amount > 3",
+            "message": "That's a unique combo!"
+          }
         }
+        
+        
       ]
     },
       
