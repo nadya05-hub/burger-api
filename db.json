@@ -46,7 +46,22 @@
           }
         }
       ]
-    }
+    },
+
+    {
+      "id": "plant-based",
+      "title": "Plant-Based Burger",
+      "steps": [
+        {
+          "id": "step1",
+          "type": "multiple-choice",
+          "instruction": "Choose your bun",
+          "options": ["Ketchup", "Mustard", "Mayo", "Spicy Chipotle"],
+          "feedback": {
+            "condition": "amount > 3",
+            "message": "Too much sauce might ruin this burger!"
+          }
+        }
   ]
 }
 
