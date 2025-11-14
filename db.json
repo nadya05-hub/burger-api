@@ -14,7 +14,8 @@
         {
           "id": "step2",
           "type": "text",
-          "instruction": "Enter number of sauce servings",
+          "instruction": "Pick your sauce servings",
+          "options": ["Ketchup", "Mustard", "Mayo", "Spicy Chipotle"],
           "feedback": {
             "condition": "amount > 3",
             "message": "Too much sauce might overpower the flavor!"
@@ -22,6 +23,7 @@
         }
       ]
     },
+      
     {
       "id": "grilled-chicken",
       "title": "Grilled Chicken Burger",
