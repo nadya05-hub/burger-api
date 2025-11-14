@@ -43,7 +43,7 @@
           "feedback": {
             "condition": "amount > 3",
             "message": "Too much sauce might overpower the flavor!"
-          }
+          },
       ]
     }
   ]
