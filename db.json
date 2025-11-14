@@ -13,6 +13,7 @@
         },
         {
           "id": "step2",
+          "type": "allowMultiple": true,
           "type": "multiple-choice",
           "instruction": "Choose your toppings!",
           "options": ["Lettuce", "Tomato", "Pickles", "Onions"],
@@ -23,6 +24,7 @@
         },
         {
           "id": "step3",
+          "type": "allowMultiple": true,
           "type": "text",
           "instruction": "Pick your sauce servings",
           "options": ["Ketchup", "Mustard", "Mayo", "Spicy Chipotle"],
@@ -33,6 +35,7 @@
         },
         {
           "id": "step4",
+          "type": "allowMultiple": true,
           "type": "multiple-choice",
           "instruction": "Choose your extras!",
           "options": ["Cheese", "Bacon", "Avocado", "Grilled Mushrooms", "Double Patty"],
@@ -54,6 +57,7 @@
         },
         {
           "id": "step2",
+          "type": "allowMultiple": true,
           "type": "multiple-choice",
           "instruction": "Choose your toppings!",
           "options": ["Lettuce", "Tomato", "Pickles", "Onions"],
@@ -64,6 +68,7 @@
         },
         {
           "id": "step3",
+          "type": "allowMultiple": true,
           "type": "text",
           "instruction": "Pick your sauce servings",
           "options": ["Ketchup", "Mustard", "Mayo", "Spicy Chipotle"],
@@ -74,6 +79,7 @@
         },
         {
           "id": "step4",
+          "type": "allowMultiple": true,
           "type": "multiple-choice",
           "instruction": "Choose your extras!",
           "options": ["Cheese", "Bacon", "Avocado", "Grilled Mushrooms", "Double Patty"],
@@ -95,6 +101,7 @@
         },
         {
           "id": "step2",
+          "type": "allowMultiple": true,
           "type": "multiple-choice",
           "instruction": "Choose your toppings!",
           "options": ["Lettuce", "Tomato", "Pickles", "Onions"],
@@ -105,6 +112,7 @@
         },
         {
           "id": "step3",
+          "type": "allowMultiple": true,
           "type": "text",
           "instruction": "Pick your sauce servings",
           "options": ["Ketchup", "Mustard", "Mayo", "Spicy Chipotle"],
@@ -115,6 +123,7 @@
         },
         {
           "id": "step4",
+          "type": "allowMultiple": true,
           "type": "multiple-choice",
           "instruction": "Choose your extras!",
           "options": ["Cheese", "Avocado", "Grilled Mushrooms", "Extra Veggie Patty"],
