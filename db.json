@@ -56,13 +56,21 @@
           "id": "step1",
           "type": "multiple-choice",
           "instruction": "Choose your bun",
+          "options": ["Wheat", "Brioche", "Lettuce Wrap"],
+          "feedback": null
+        },
+        {
+          "id": "step2",
+          "type": "text",
+          "instruction": "Pick your sauce servings",
           "options": ["Ketchup", "Mustard", "Mayo", "Spicy Chipotle"],
           "feedback": {
             "condition": "amount > 3",
-            "message": "Too much sauce might ruin this burger!"
+            "message": "Too much sauce might overpower the flavor!"
           }
         }
-  ]
       ]
+    }
+  
 }
 
