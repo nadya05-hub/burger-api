@@ -13,6 +13,16 @@
         },
         {
           "id": "step2",
+          "type": "multiple-choice",
+          "instruction": "Choose your toppings!",
+          "options": ["Lettuce", "Tomato", "Pickles", "Onions"],
+          "feedback": {
+            "condition": "amount > 3",
+            "message": "That's a unique combo!"
+          }
+        },
+        {
+          "id": "step3",
           "type": "text",
           "instruction": "Pick your sauce servings",
           "options": ["Ketchup", "Mustard", "Mayo", "Spicy Chipotle"],
@@ -22,20 +32,15 @@
           }
         },
         {
-        "id": "step3",
-        "type": "multiple-choice",
-        "instruction": "Choose your toppings!",
-        "options": ["Lettuce", "Tomato", "Pickles", "Onions"],
-          "feedback": {
-            "condition": "amount > 3",
-            "message": "That's a unique combo!"
-          }
+          "id": "step4",
+          "type": "multiple-choice",
+          "instruction": "Choose your extras!",
+          "options": ["Cheese", "Bacon", "Avocado", "Grilled Mushrooms", "Double Patty"],
+          "feedback": null
         }
-        
-        
       ]
     },
-      
+
     {
       "id": "grilled-chicken",
       "title": "Grilled Chicken Burger",
@@ -49,6 +54,16 @@
         },
         {
           "id": "step2",
+          "type": "multiple-choice",
+          "instruction": "Choose your toppings!",
+          "options": ["Lettuce", "Tomato", "Pickles", "Onions"],
+          "feedback": {
+            "condition": "amount > 3",
+            "message": "That's a unique combo!"
+          }
+        },
+        {
+          "id": "step3",
           "type": "text",
           "instruction": "Pick your sauce servings",
           "options": ["Ketchup", "Mustard", "Mayo", "Spicy Chipotle"],
@@ -56,6 +71,13 @@
             "condition": "amount > 3",
             "message": "Too much sauce might overpower the flavor!"
           }
+        },
+        {
+          "id": "step4",
+          "type": "multiple-choice",
+          "instruction": "Choose your extras!",
+          "options": ["Cheese", "Bacon", "Avocado", "Grilled Mushrooms", "Double Patty"],
+          "feedback": null
         }
       ]
     },
@@ -73,6 +95,16 @@
         },
         {
           "id": "step2",
+          "type": "multiple-choice",
+          "instruction": "Choose your toppings!",
+          "options": ["Lettuce", "Tomato", "Pickles", "Onions"],
+          "feedback": {
+            "condition": "amount > 3",
+            "message": "That's a unique combo!"
+          }
+        },
+        {
+          "id": "step3",
           "type": "text",
           "instruction": "Pick your sauce servings",
           "options": ["Ketchup", "Mustard", "Mayo", "Spicy Chipotle"],
@@ -80,9 +112,15 @@
             "condition": "amount > 3",
             "message": "Too much sauce might overpower the flavor!"
           }
+        },
+        {
+          "id": "step4",
+          "type": "multiple-choice",
+          "instruction": "Choose your extras!",
+          "options": ["Cheese", "Avocado", "Grilled Mushrooms", "Extra Veggie Patty"],
+          "feedback": null
         }
       ]
     }
   ]
 }
-
