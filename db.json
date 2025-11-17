@@ -79,7 +79,7 @@
         },
         {
           "id": "step4",
-          "allowMultiple": true
+          "allowMultiple": true,
           "type": "multiple-choice",
           "instruction": "Choose your extras!",
           "options": ["Cheese", "Bacon", "Avocado", "Grilled Mushrooms", "Double Patty"],
@@ -133,3 +133,4 @@
     }
   ]
 }
+
