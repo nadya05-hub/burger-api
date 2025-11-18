@@ -15,7 +15,7 @@
           "id": "step2",
           "type": "multiple-choice",
           "instruction": "Choose your toppings!",
-          "options": ["Lettuce", "Tomato", "Pickles", "Onions"],
+          "options": ["Lettuce", "Tomato", "Pickles", "Cheese"],
           "allowMultiple": true,
           "feedback": {
             "condition": "amount > 3",
@@ -38,7 +38,7 @@
           "type": "multiple-choice",
           "instruction": "Choose your extras!",
           "allowMultiple": true,
-          "options": ["Cheese", "Bacon", "Avocado", "Grilled Mushrooms", "Double Patty"],
+          "options": ["Onions", "Bacon", "Avocado", "Grilled Mushrooms", "Double Patty"],
           "feedback": null
         }
       ]
@@ -60,7 +60,7 @@
           "type": "multiple-choice",
           "instruction": "Choose your toppings!",
           "allowMultiple": true,
-          "options": ["Lettuce", "Tomato", "Pickles", "Onions"],
+          "options": ["Lettuce", "Tomato", "Pickles", "Cheese"],
           "feedback": {
             "condition": "amount > 3",
             "message": "That's a unique combo!"
@@ -82,7 +82,7 @@
           "allowMultiple": true,
           "type": "multiple-choice",
           "instruction": "Choose your extras!",
-          "options": ["Cheese", "Bacon", "Avocado", "Grilled Mushrooms", "Double Patty"],
+          "options": ["Onions", "Bacon", "Avocado", "Grilled Mushrooms", "Double Patty"],
           "feedback": null
         }
       ]
@@ -104,7 +104,7 @@
           "type": "multiple-choice",
           "instruction": "Choose your toppings!",
           "allowMultiple": true,
-          "options": ["Lettuce", "Tomato", "Pickles", "Onions"],
+          "options": ["Lettuce", "Tomato", "Pickles", "Cheese"],
           "feedback": {
             "condition": "amount > 3",
             "message": "That's a unique combo!"
@@ -126,7 +126,7 @@
           "type": "multiple-choice",
           "instruction": "Choose your extras!",
           "allowMultiple": true,
-          "options": ["Cheese", "Avocado", "Grilled Mushrooms", "Extra Veggie Patty"],
+          "options": ["Onions", "Avocado", "Grilled Mushrooms", "Extra Veggie Patty"],
           "feedback": null
         }
       ]
